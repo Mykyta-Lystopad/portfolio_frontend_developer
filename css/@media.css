@@ -1,0 +1,181 @@
+@media screen and (max-width: 959px){
+    .wrapper {
+        width: 98%;
+    }
+    nav {
+        margin-left: 6%;
+    }
+    nav li {
+        padding-left: 20px;
+    }
+    .merit-diamond:nth-child(2) {
+        margin: 0 1%;
+    }
+    .link-write-me {
+        float: left;
+    }
+    .skill-item:first-child {
+        width: 30%
+    }
+    .skill-item {
+        width: 23%;
+        margin-right: 20px;
+    }
+    .skill-program {
+        padding-left: 10px;
+    }
+    .works-title h2 {
+        margin-top: 83px;
+        margin-bottom: 60px;
+    }
+    .works-examples {
+        align-items: center;
+        align-content: center;
+        display: flex;
+        margin: auto;
+        width: 36.6em;
+    }
+    .work-example:last-child {
+        display: none;
+    }
+    .footer-year p {
+        text-align: center;
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .skill-item {
+        width: 50%;
+        margin-right: 0;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 722px){
+    .wrapper {
+        width: 95%;
+    }
+    .main {
+        padding-top: 20px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .main-logo {
+        float: none;
+    }
+    nav {
+        float: none;
+        margin-left: 0;
+    }
+    .main-site {
+        float: none;
+    }
+    nav li {
+        padding: 0 25px;
+    }
+    .about-me-bg{
+        float: none;
+        width: 100%;
+    }
+    .about-me-title h2 {
+        text-align: center;
+        margin-top: 36px;
+        margin-bottom: 29px;
+    }
+    .about-me-bg h4, .merit h4, .link h4{
+        text-align: center;
+        margin: 20px auto;
+    }
+    .about-me-merits {
+        float: none;
+        width: 100%;
+    }
+    .about-me-bg p {
+        padding-right: 10px;
+    }
+    .merit-diamond:nth-child(2) {
+        margin: 0;
+    }
+    .merit-diamond-text p{
+        margin: 25px auto;
+    }
+    .merit-diamonds {
+        align-items: center;
+        margin: 0 auto;
+        width: 21em;
+        display: flex;
+    }
+    .link-soc-site {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .link-write-me {
+        float: none;
+        text-align: center;
+    }
+    .link-write-me {
+        display: flex;
+        width: 20em;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+    .skills-title h2 {
+        text-align: center;
+    }
+    .skill-item {
+        float: none;
+        margin: 20px auto;
+        display: flex;
+        width: 12.2em;
+        align-items: center;
+    }
+    .skill-item:first-child {
+        width: 12.2em;
+    }
+    .skill-item:last-child {
+        margin-right: auto;
+    }
+    .works-title h2 {
+        margin-top: 63px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .works-examples {
+        align-items: normal;
+        align-content: normal;
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .work-example {
+        align-items: center;
+        display: flex;
+        margin: 10px auto;
+        width: 18.8em;
+        float: none;
+    }
+    .work-example:last-child {
+        display: flex;
+        margin-right: auto;
+    }
+    .overlay {
+        width: 106.5%;
+    }
+
+    @media screen and (max-width: 465px) {
+        nav li {
+            padding: 0 5px;
+        }
+    }
+
+    @media screen and (max-width: 319px){
+        #dick-duck {
+            opacity: 0;
+            background: url("image/siemens.png") no-repeat;
+        }
+    }
+
+}

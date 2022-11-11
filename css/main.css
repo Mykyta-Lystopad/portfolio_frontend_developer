@@ -1,0 +1,362 @@
+
+/*"Natasha",*/
+
+@font-face {
+    font-family: 'Natasha';
+    src: url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Natasha.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*'MuseoSansCyrl',*/
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/MuseoSansCyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/MuseoSansCyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/MuseoSansCyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/MuseoSansCyrl-300.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/MuseoSansCyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/MuseoSansCyrl-900.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: "MuseoSansCyrl", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+div, input, button, ul, li{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.12em;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    content: " ";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+#header {
+    background: #000 url("../image/header-bg.png") no-repeat center / cover;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-menu a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.main {
+    padding-top: 56px;
+}
+
+.main-logo {
+    float: left;
+}
+
+.main-logo a {
+    font-size: 17px;
+}
+
+nav {
+    float: left;
+    margin-left: 13%;
+}
+
+nav li {
+    display: inline;
+    font-weight: 900;
+    padding-left: 47px;
+}
+
+nav li a:hover {
+    color: #73b1d8;
+    border-bottom: 3px solid #73b1d8;
+}
+
+*{
+	-moz-transition: all 1s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-tiring-function: ease;
+}
+
+.main-site {
+    float: right;
+}
+
+.main-site a {
+    text-transform: lowercase;
+    font-size: 13px;
+    border-bottom: 1px solid #525254;
+    padding-bottom: 4px;
+}
+
+.main-site span {
+    color: #6b6e6a;
+}
+
+.main-title h1 {
+    font-family: "Natasha", sans-serif;
+    font-weight: 300;
+    margin-top: 297px;
+    font-size: 40px;
+}
+
+.main-subtitle p {
+    line-height: 55px;
+    font-size: 29px;
+    font-weight: 100;
+    letter-spacing: 0.12em;
+}
+
+.main-arrow {
+    margin-top: 265px;
+    margin-bottom: 82px;
+    
+}
+
+.skills-title h2,
+.works-title h2,
+.about-me-title h2 {
+    font-family: "Natasha", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    font-size: 37px;
+    color: #22241b;
+}
+.about-me-title h2 {
+    margin-top: 86px;
+    margin-bottom: 79px;
+}
+
+.about-me-bg {
+    width: 44.9%;
+    float: left;
+}
+
+.about-me-bg h4, .merit h4, .link h4 {
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #888886;
+    margin-bottom: 46px;
+}
+.pad {
+    padding-top: 30px;
+}
+.about-me-bg p {
+    text-align: left;
+    font-weight: 300;
+    color: #22241b;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+}
+
+.about-me-merits {
+    float: right;
+    width: 49%;
+}
+
+.merit-diamond-bg {
+    background: url("../image/romb.png") no-repeat;
+}
+
+.merit-diamond {
+    float: left;
+    width: 105px;
+}
+
+.merit-diamond:nth-child(2) {
+    margin: 0 70px;
+}
+
+.diamond-number p {
+    text-align: center;
+    line-height: 103px;
+    font-size: 20px;
+    color: #204d15;
+}
+
+.merit-diamond-text p {
+    font-weight: 100;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #22241b;
+    margin-top: 25px;
+    margin-bottom: 68px;
+}
+
+.link-soc-site {
+    float: left;
+    width: 173px;
+}
+
+.link-soc-site li {
+    display: block;
+    padding-top: 15px;
+}
+
+.link-soc-site li a {
+    font-size: 14px;
+    color: #204d15;
+    border-bottom: 1px solid #becbbb;
+}
+
+.link h4 {
+    margin-bottom: 25px;
+}
+
+.link-write-me {
+    float: right;
+    width: 270px;
+    margin-top: 30px;
+}
+
+.link-write-me-img {
+    float: left;
+}
+
+.link-write-me-a {
+    float: right;
+}
+
+.link-write-me-a a {
+    font-size: 14px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    color: #b1b1af;
+}
+
+.skills-title h2 {
+    margin-top: 86px;
+    margin-bottom: 79px;
+}
+
+.skill-item {
+    background: url("../image/cycle.png") no-repeat left;
+    width: 220px;
+    height: 61px;
+    float: left;
+    margin-right: 20px;
+}
+
+.skill-item:last-child {
+    margin-right: 0;
+}
+
+.skill-percent {
+    width: 61px;
+    height: 61px;
+    text-align: center;
+    line-height: 61px;
+    float: left;
+}
+
+.skill-program {
+    line-height: 55px;
+    font-weight: 900;
+    color: #4b4c47;
+    float: left;
+    padding-left: 30px;
+}
+
+.works-title h2 {
+    font-weight: bold;
+    font-size: 37px;
+    margin-top: 83px;
+    margin-bottom: 60px;
+}
+
+.work-example {
+    float: left;
+    margin-right: 20px;
+}
+
+.work-example:last-child {
+    margin-right: 0;
+}
+
+.work-example {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    padding-top: 130px;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+}
+
+.overlay a {
+    font-size: 13px;
+    color: #fff;
+    border-bottom: 1px solid #525254;
+    padding-bottom: 2px;
+}
+
+.overlay a:hover {
+    color: #73b1d8;
+    font-size: 20px;
+    border-bottom: 3px solid #73b1d8;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.footer-year p {
+    margin: 123px 0 112px 0;
+    color: #888886;
+    font-size: 11px;
+}
